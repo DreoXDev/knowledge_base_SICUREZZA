@@ -48,3 +48,31 @@ Questo indice raccogliera' le domande note o generate a partire dalle fonti inte
 | Q-032 | Che cos'è Triple DES? | da rispondere | - | SRC-002 |
 | Q-033 | Che cos'è AES e quali sono le sue caratteristiche principali? | da rispondere | - | SRC-002 |
 | Q-034 | Riassumi pro e contro degli algoritmi simmetrici. | da rispondere | - | SRC-002 |
+| Q-035 | Come funziona la crittografia asimmetrica? | da rispondere | - | SRC-003 |
+| Q-036 | Qual è la differenza tra chiave pubblica e chiave privata? | da rispondere | - | SRC-003 |
+| Q-037 | Come si usa la crittografia asimmetrica per garantire confidenzialità? | da rispondere | - | SRC-003 |
+| Q-038 | Perché nella crittografia asimmetrica servono solo `n` coppie di chiavi per `n` utenti? | da rispondere | - | SRC-003 |
+| Q-039 | Quali requisiti di sicurezza supportano gli algoritmi asimmetrici? | da rispondere | - | SRC-003 |
+| Q-040 | Perché la crittografia asimmetrica è adatta alle firme digitali? | da rispondere | - | SRC-003 |
+| Q-041 | Spiega il principio della firma digitale tramite uso "al contrario" delle chiavi. | da rispondere | - | SRC-003 |
+| Q-042 | Che cos'è RSA? | da rispondere | - | SRC-003 |
+| Q-043 | Su quale problema computazionale si basa la sicurezza di RSA? | da rispondere | - | SRC-003 |
+| Q-044 | Descrivi i passaggi principali della generazione delle chiavi RSA. | da rispondere | - | SRC-003 |
+| Q-045 | Spiega le formule di cifratura e decifratura RSA. | da rispondere | - | SRC-003 |
+| Q-046 | Quali sono pro e limiti di RSA? | da rispondere | - | SRC-003 |
+| Q-047 | Che cos'è un message digest? | da rispondere | - | SRC-003 |
+| Q-048 | Quali proprietà deve avere un algoritmo di hashing crittografico? | da rispondere | - | SRC-003 |
+| Q-049 | Come si usa un digest per verificare l'integrità di un messaggio? | da rispondere | - | SRC-003 |
+| Q-050 | Quali requisiti di sicurezza supportano gli algoritmi di hashing? | da rispondere | - | SRC-003 |
+| Q-051 | Perché gli hash non garantiscono autenticità e non-ripudio da soli? | da rispondere | - | SRC-003 |
+| Q-052 | Perché nella pratica si combinano RSA e algoritmi simmetrici? | da rispondere | - | SRC-003 |
+| Q-053 | Descrivi lo schema di cifratura ibrida RSA + AES/DES. | da rispondere | - | SRC-003 |
+| Q-054 | Descrivi lo schema di firma digitale efficiente basato su digest. | da rispondere | - | SRC-003 |
+| Q-055 | Qual è il problema della distribuzione delle chiavi pubbliche? | da rispondere | - | SRC-003 |
+| Q-056 | Che cos'è un certificato X.509? | da rispondere | - | SRC-003 |
+| Q-057 | Quali informazioni contiene un certificato X.509? | da rispondere | - | SRC-003 |
+| Q-058 | Come funziona una catena di certificati? | da rispondere | - | SRC-003 |
+| Q-059 | Che cos'è una PKI? | da rispondere | - | SRC-003 |
+| Q-060 | Perché la crittografia non è sufficiente da sola? | da rispondere | - | SRC-003 |
+| Q-061 | Che cos'è il threat model e perché è importante? | da rispondere | - | SRC-003 |
+| Q-062 | Spiega l'esempio del PIN del bancomat rispetto ai limiti della crittografia. | da rispondere | - | SRC-003 |

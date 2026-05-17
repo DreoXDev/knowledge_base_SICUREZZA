@@ -25,9 +25,21 @@ Le tre principali classi sono:
 2. **algoritmi asimmetrici**, detti anche a chiave pubblica;
 3. **algoritmi di hashing**, detti anche message digest.
 
+## Confronto tra classi di algoritmi
+
+| Classe | Esempi | Uso principale | Punti forti | Limiti |
+|---|---|---|---|---|
+| Simmetrici | DES, AES | confidenzialità efficiente | molto veloci | problema dello scambio chiavi, non-ripudio non comprovabile a terzi |
+| Asimmetrici | RSA | confidenzialità, firma digitale, gestione chiavi | chiavi pubbliche distribuibili, supporto a non-ripudio | molto più lenti |
+| Hashing | MD5, SHA1, SHA2 | integrità | digest compatto del messaggio | non garantiscono confidenzialità né autenticità da soli |
+
 ## Collegamenti
 
 - [[Crittografia_Simmetrica]]
+- [[Crittografia_Asimmetrica]]
+- [[Hashing_Message_Digest]]
+- [[Firme_Digitali]]
+- [[Cifratura_Ibrida]]
 - [[DES_TripleDES_AES]]
 - [[Forza_Bruta_e_Crittoanalisi]]
 - [[Crittografia_Introduzione]]
@@ -43,4 +55,4 @@ Le tre principali classi sono:
 ## Fonti
 
 - SRC-002
-
+- SRC-003

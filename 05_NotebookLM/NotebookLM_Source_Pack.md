@@ -21,6 +21,12 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Gli schemi di cifratura trasformano plaintext in ciphertext tramite una chiave e devono permettere la decifratura corretta del messaggio da parte del destinatario autorizzato.
 - La crittografia simmetrica usa la stessa chiave per cifrare e decifrare. È efficiente e molto utile per la confidenzialità, ma ha limiti su scambio delle chiavi, non-ripudio e attribuzione verso terze parti.
 - DES è uno standard storico oggi debole per la dimensione della chiave; Triple DES aumenta la sicurezza ripetendo DES; AES è lo standard simmetrico moderno con blocchi da 128 bit e chiavi da 128, 192 o 256 bit.
+- La crittografia asimmetrica usa una chiave pubblica e una chiave privata. Permette confidenzialità verso il proprietario della chiave privata e firme digitali verificabili con la chiave pubblica.
+- RSA è un algoritmo asimmetrico basato sulla difficoltà di fattorizzare numeri molto grandi. È utile per chiavi, firme e piccole quantità di dati, ma è meno efficiente degli algoritmi simmetrici.
+- Gli algoritmi di hashing producono message digest utili per l'integrità. MD5 e SHA1 sono contenuti storici del corso e non vanno trattati come scelte moderne per sicurezza forte; SHA2 è più robusto.
+- La cifratura ibrida combina AES/DES per cifrare i dati e RSA per proteggere la chiave di sessione.
+- Certificati X.509 e PKI risolvono il problema di associare in modo fidato una chiave pubblica a un'identità.
+- La crittografia non è sufficiente se il threat model è incompleto: bug, dispositivi, protocolli, utenti e social engineering restano parte del rischio.
 
 ## Definizioni importanti
 
@@ -35,6 +41,11 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Forza bruta: attacco che prova tutte le chiavi o configurazioni possibili.
 - Crittoanalisi: studio degli attacchi contro sistemi crittografici.
 - Algoritmo simmetrico: algoritmo che usa la stessa chiave per cifrare e decifrare.
+- Crittografia asimmetrica: classe di algoritmi con chiave pubblica e chiave privata.
+- Message digest: riassunto crittografico di un messaggio.
+- Firma digitale: meccanismo che garantisce integrità, autenticità e non-ripudio tramite chiave privata e verifica con chiave pubblica.
+- PKI: infrastruttura per gestire certificati, chiavi pubbliche e autorità di certificazione.
+- Threat model: descrizione di minacce, attaccanti, capacità e assunzioni considerate.
 
 ## Confronti importanti
 
@@ -42,6 +53,9 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - CIA vs DAD: la CIA Triad descrive cosa proteggere; DAD descrive famiglie di attacco contro quegli obiettivi.
 - Crittografia simmetrica vs firma digitale: la simmetrica consente confidenzialità efficiente, ma non prova a terzi quale partecipante abbia generato un messaggio.
 - DES vs AES: DES usa chiavi effettive da 56 bit ed è vulnerabile a forza bruta moderna; AES usa blocchi da 128 bit e chiavi più lunghe, ed è lo standard moderno.
+- Simmetrica vs asimmetrica: la simmetrica è veloce ma richiede chiavi condivise; l'asimmetrica è più lenta ma rende pubblica una parte della chiave e supporta firme digitali.
+- Hashing vs cifratura: l'hashing produce un digest e non è reversibile; la cifratura deve permettere il recupero del plaintext.
+- Certificati vs chiavi pubbliche nude: una chiave pubblica da sola non prova l'identità del proprietario; il certificato lega chiave e identità tramite una CA.
 
 ## Domande utili per il ripasso
 
@@ -53,3 +67,8 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Quali sono le componenti di uno schema di cifratura?
 - Perché la crittografia simmetrica non garantisce non-ripudio verso terze parti?
 - Confronta DES, Triple DES e AES.
+- Come funziona la crittografia asimmetrica?
+- Perché RSA non viene usato per cifrare grandi quantità di dati?
+- Come funziona una firma digitale basata su message digest?
+- Quale problema risolve un certificato X.509?
+- Perché un threat model incompleto può rendere insufficiente la crittografia?

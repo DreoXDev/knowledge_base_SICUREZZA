@@ -116,7 +116,72 @@ Advanced Encryption Standard: algoritmo simmetrico moderno basato su blocchi da 
 
 Processo con cui due o più soggetti ottengono una chiave condivisa senza renderla nota ad attaccanti.
 
+## Crittografia asimmetrica
+
+Classe di algoritmi crittografici che usa una coppia di chiavi: una pubblica e una privata.
+
+## Chiave pubblica
+
+Chiave distribuibile pubblicamente, usata per cifrare messaggi verso il proprietario o per verificare firme prodotte dalla sua chiave privata.
+
+## Chiave privata
+
+Chiave nota solo al proprietario, usata per decifrare messaggi destinati a lui o per produrre firme digitali.
+
+## RSA
+
+Algoritmo crittografico asimmetrico basato sulla difficoltà di fattorizzare numeri molto grandi.
+
+## One-way function
+
+Funzione facile da calcolare in una direzione ma computazionalmente difficile da invertire.
+
+## Message digest
+
+Riassunto crittografico di un messaggio, usato soprattutto per verificare l'integrità.
+
+## Hashing crittografico
+
+Classe di algoritmi che producono un digest del messaggio e devono essere non invertibili e resistenti alle collisioni.
+
+## Collision resistance
+
+Proprietà per cui è computazionalmente improbabile trovare due messaggi diversi con lo stesso digest.
+
+## Firma digitale
+
+Meccanismo basato su crittografia a chiave pubblica e hashing che garantisce integrità, autenticità e non-ripudio.
+
+## Chiave di sessione
+
+Chiave segreta casuale generata per cifrare una specifica comunicazione o sessione.
+
+## Cifratura ibrida
+
+Schema che combina crittografia simmetrica per cifrare i dati e crittografia asimmetrica per proteggere lo scambio della chiave segreta.
+
+## Certificato X.509
+
+Certificato digitale che associa un'identità a una chiave pubblica, firmato da un'autorità di certificazione.
+
+## Autorità di certificazione
+
+Entità fidata che emette certificati digitali e garantisce l'associazione tra identità e chiavi pubbliche.
+
+## Catena di certificati
+
+Sequenza di certificati in cui la fiducia viene propagata da un'autorità fidata verso entità successive.
+
+## PKI
+
+Public Key Infrastructure: infrastruttura per gestire chiavi pubbliche, certificati e autorità di certificazione.
+
+## Threat model
+
+Descrizione delle minacce, degli attaccanti, delle capacità e delle assunzioni considerate nella progettazione della sicurezza.
+
 ## Fonti
 
 - SRC-001
 - SRC-002
+- SRC-003

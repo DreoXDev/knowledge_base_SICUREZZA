@@ -30,6 +30,14 @@ Quindi un terzo non può stabilire con certezza quale dei due abbia prodotto il 
 > [!Summary]
 > La crittografia simmetrica è ottima per cifrare dati in modo efficiente, ma non basta per risolvere il problema della firma digitale e della prova verso terze parti.
 
+## Soluzione parziale: crittografia asimmetrica
+
+La [[Crittografia_Asimmetrica]] riduce il problema dello scambio delle chiavi, perché le chiavi pubbliche possono essere distribuite su canali insicuri.
+
+Tuttavia introduce un nuovo problema: bisogna verificare che una chiave pubblica appartenga davvero all'entità dichiarata.
+
+Questo porta al tema dei [[Certificati_X509_PKI]].
+
 ## Collegamenti
 
 - [[Crittografia_Simmetrica]]
@@ -40,4 +48,4 @@ Quindi un terzo non può stabilire con certezza quale dei due abbia prodotto il 
 ## Fonti
 
 - SRC-002
-
+- SRC-003

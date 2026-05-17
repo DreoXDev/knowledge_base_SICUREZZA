@@ -49,6 +49,17 @@ Questa crescita quadratica rende difficile la gestione delle chiavi quando il nu
 
 Una chiave scambiata o conservata male diventa una vulnerabilità. Anche se l'algoritmo è forte, la sicurezza complessiva dipende dal processo di gestione delle chiavi e dal contesto operativo.
 
+## Confronto con crittografia asimmetrica
+
+La crittografia simmetrica è più efficiente, ma richiede lo scambio sicuro di chiavi segrete e non fornisce non-ripudio verso terze parti.
+
+La [[Crittografia_Asimmetrica]] è più lenta, ma permette:
+
+- distribuzione pubblica delle chiavi;
+- firme digitali;
+- verifica da parte di terze parti;
+- numero di chiavi lineare nel numero di utenti.
+
 ## Collegamenti
 
 - [[DES_TripleDES_AES]]
@@ -59,4 +70,4 @@ Una chiave scambiata o conservata male diventa una vulnerabilità. Anche se l'al
 ## Fonti
 
 - SRC-002
-
+- SRC-003
