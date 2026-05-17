@@ -232,9 +232,94 @@ Protocollo di autenticazione reciproca a chiave pubblica, noto anche per una vul
 
 Attacco che sfrutta sessioni parallele per riutilizzare messaggi validi in un contesto diverso da quello previsto.
 
+## Oggetto protetto
+
+Risorsa del sistema soggetta a controllo accessi, ad esempio file, memoria, periferica o oggetto generico.
+
+## Soggetto
+
+Entità attiva che richiede accesso a una risorsa, ad esempio utente o processo.
+
+## Access Control List
+
+Lista associata a una risorsa che specifica quali utenti o gruppi hanno quali diritti su quella risorsa.
+
+## Ownership
+
+Diritto o ruolo di proprietario di una risorsa.
+
+## Bit di protezione
+
+Permessi compatti associati a file, tipicamente distinti per owner, group e world.
+
+## Mediazione completa
+
+Principio secondo cui ogni accesso a ogni oggetto protetto deve essere controllato.
+
+## TOC/TOU
+
+Time-of-check/time-of-use: vulnerabilità che nasce quando una risorsa cambia tra il momento del controllo e quello dell'uso.
+
+## Principio dei minimi privilegi
+
+Principio secondo cui ogni soggetto deve avere solo i privilegi strettamente necessari.
+
+## Covert channel
+
+Canale alternativo o non ovvio usato per trasmettere informazioni a soggetti non autorizzati.
+
+## DAC
+
+Discretionary Access Control: modello in cui il proprietario di una risorsa può concedere o modificare accessi a propria discrezione.
+
+## MAC
+
+Mandatory Access Control: modello in cui il sistema impone politiche di accesso non modificabili liberamente dagli utenti.
+
+## Sicurezza multilivello
+
+Modello in cui soggetti e oggetti sono classificati su livelli di sicurezza.
+
+## Bell-LaPadula
+
+Modello MAC orientato alla confidenzialità basato su no-read-up e no-write-down.
+
+## Biba
+
+Modello MAC orientato all'integrità basato su no-write-up e no-read-down.
+
+## Compartimento
+
+Raggruppamento semantico di dati o soggetti, ad esempio progetto, missione o ruolo.
+
+## Need-to-know
+
+Regola secondo cui un soggetto può accedere solo alle informazioni necessarie al proprio ruolo o compartimento.
+
+## Muraglia Cinese
+
+Modello di controllo accessi orientato alla gestione dei conflitti di interesse.
+
+## COI
+
+Conflict of Interest: classe di conflitto di interesse tra dataset.
+
+## Auditing
+
+Registrazione e analisi di eventi rilevanti per la sicurezza.
+
+## IDS
+
+Intrusion Detection System: sistema che analizza dati di audit per rilevare compromissioni o usi non autorizzati.
+
+## Sistema operativo trusted
+
+Sistema operativo progettato per applicare in modo affidabile politiche e meccanismi di sicurezza.
+
 ## Fonti
 
 - SRC-001
 - SRC-002
 - SRC-003
 - SRC-004
+- SRC-005

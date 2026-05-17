@@ -33,6 +33,16 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Challenge/response permette di dimostrare la conoscenza di un segreto senza trasmetterlo direttamente. Il nonce impedisce replay attack.
 - Reflection attack e parallel sessions attack mostrano che i protocolli devono legare crittograficamente messaggi, identità e contesto.
 - Needham-Schroeder è un protocollo di autenticazione reciproca a chiave pubblica; la versione originale è vulnerabile se i messaggi non includono identità sufficienti.
+- Il controllo degli accessi nei sistemi operativi stabilisce quali soggetti possono usare quali oggetti protetti e con quali diritti.
+- ACL e bit Unix/Linux sono meccanismi per rappresentare diritti di accesso. Le ACL sono più flessibili; i bit Unix/Linux sono più compatti.
+- Gli obiettivi del controllo accessi includono mediazione completa, prevenzione di TOC/TOU, minimi privilegi e limitazione dei covert channels.
+- DAC lascia discrezionalità al proprietario della risorsa; MAC impone politiche di sicurezza definite dal sistema.
+- Bell-LaPadula è orientato alla confidenzialità: no-read-up e no-write-down.
+- Biba è orientato all'integrità: no-write-up e no-read-down.
+- Compartimenti e need-to-know aggiungono vincoli semantici oltre ai livelli di sicurezza.
+- La Muraglia Cinese gestisce conflitti di interesse tra dataset aziendali concorrenti.
+- Auditing e IDS servono a registrare e analizzare eventi rilevanti per individuare intrusioni o violazioni.
+- Un sistema operativo trusted deve applicare minimi privilegi, mediazione completa, deny by default, auditing, separazione utenti e semplicità d'uso.
 
 ## Definizioni importanti
 
@@ -58,6 +68,13 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Replay attack: riuso di un messaggio valido intercettato.
 - Reflection attack: riuso riflesso di una risposta valida in una sessione parallela.
 - Needham-Schroeder: protocollo di autenticazione reciproca basato su chiave pubblica e nonce.
+- Access Control List: lista che associa soggetti o gruppi a diritti su una risorsa.
+- DAC: modello in cui il proprietario concede o modifica diritti a propria discrezione.
+- MAC: modello in cui il sistema impone politiche di accesso non modificabili liberamente dagli utenti.
+- Bell-LaPadula: modello per confidenzialità basato su no-read-up e no-write-down.
+- Biba: modello per integrità basato su no-write-up e no-read-down.
+- Covert channel: canale indiretto usato per trasferire informazioni a soggetti non autorizzati.
+- IDS: sistema che analizza dati di audit per rilevare compromissioni o violazioni.
 
 ## Confronti importanti
 
@@ -71,6 +88,9 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Autenticazione vs controllo accessi: l'autenticazione stabilisce l'identità, il controllo accessi decide i permessi.
 - Password hash vs password in chiaro: l'hash riduce l'esposizione del segreto, ma deve essere accompagnato da salt e protezione del file password.
 - Replay vs reflection attack: il replay riusa un messaggio vecchio; la reflection sfrutta una sessione parallela e la simmetria del protocollo.
+- Bell-LaPadula vs Biba: Bell-LaPadula protegge la confidenzialità; Biba protegge l'integrità.
+- DAC vs MAC: DAC è flessibile e delega al proprietario; MAC è più rigido e centralizzato.
+- Multi-level vs multi-lateral: multi-level usa livelli di sicurezza; multi-lateral usa raggruppamenti semantici o conflitti di interesse.
 
 ## Domande utili per il ripasso
 
@@ -91,3 +111,8 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Perché password file, hash e salt sono importanti?
 - Come funziona challenge/response con nonce?
 - Perché Needham-Schroeder originale è vulnerabile a parallel sessions attack?
+- Confronta ACL e bit Unix/Linux.
+- Spiega DAC e MAC.
+- Confronta Bell-LaPadula e Biba.
+- Che cosa sono covert channels e perché sono difficili da eliminare?
+- Che cosa sono auditing e IDS?

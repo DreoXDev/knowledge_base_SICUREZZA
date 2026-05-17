@@ -49,13 +49,28 @@ Le aree principali sono:
 > [!Important]
 > Prima si autentica il soggetto, poi si applicano le regole di controllo accessi.
 
+## Meccanismi di sicurezza nei sistemi operativi
+
+I principali meccanismi di sicurezza nei sistemi operativi sono:
+
+| Meccanismo | Scopo |
+|---|---|
+| Autenticazione | identificare in modo sicuro gli utenti autorizzati all'accesso |
+| Controllo degli accessi | restringere e controllare i diritti di accesso alle risorse |
+| Modelli di sicurezza | definire requisiti e politiche che governano il controllo degli accessi |
+| Auditing | monitorare le azioni degli utenti per scoprire intrusioni o violazioni delle politiche |
+
 ## Collegamenti
 
 - [[Autenticazione]]
+- [[Controllo_Accessi_SO]]
+- [[DAC_MAC]]
+- [[Auditing_Intrusion_Detection]]
+- [[SO_Trusted_Principi]]
 - [[CIA_Triad_DAD]]
 - [[Analisi_Rischio]]
 
 ## Fonti
 
 - SRC-004
-
+- SRC-005

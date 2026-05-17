@@ -59,6 +59,12 @@ Un attacco basato sul tempo di risposta sfrutta differenze misurabili nei tempi 
 > [!Important]
 > La sicurezza del processo di autenticazione dipende anche da ciò che il sistema rivela indirettamente.
 
+## Collegamento con autorizzazione
+
+Un login corretto non implica accesso illimitato: dopo l'autenticazione entrano in gioco politiche di controllo accessi, ACL, DAC/MAC e modelli di sicurezza.
+
+Vedi: [[ACL_e_Bit_Protezione]], [[DAC_MAC]]
+
 ## Collegamenti
 
 - [[Autenticazione]]
@@ -68,4 +74,4 @@ Un attacco basato sul tempo di risposta sfrutta differenze misurabili nei tempi 
 ## Fonti
 
 - SRC-004
-
+- SRC-005

@@ -21,6 +21,14 @@ Il sistema deve decidere se accettare o rifiutare questa identità reclamata.
 
 L'obiettivo dell'autenticazione è evitare l'accesso di soggetti non autorizzati alle risorse del sistema.
 
+## Dopo l'autenticazione
+
+L'autenticazione stabilisce chi è il soggetto.
+
+Il controllo degli accessi stabilisce cosa quel soggetto può fare.
+
+Vedi: [[Controllo_Accessi_SO]]
+
 ## Metodi per l'autenticazione
 
 I metodi principali possono essere raggruppati in tre categorie.
@@ -65,4 +73,4 @@ Esempi:
 ## Fonti
 
 - SRC-004
-
+- SRC-005

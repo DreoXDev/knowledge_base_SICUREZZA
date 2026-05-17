@@ -106,3 +106,38 @@ Questo indice raccogliera' le domande note o generate a partire dalle fonti inte
 | Q-090 | Perché la versione originale di Needham-Schroeder è vulnerabile? | da rispondere | - | SRC-004 |
 | Q-091 | Che cos'è il parallel sessions attack? | da rispondere | - | SRC-004 |
 | Q-092 | Come viene corretta la vulnerabilità di Needham-Schroeder? | da rispondere | - | SRC-004 |
+| Q-093 | Che cos'è il controllo degli accessi agli oggetti protetti? | da rispondere | - | SRC-005 |
+| Q-094 | Perché utenti autorizzati al sistema non hanno necessariamente diritti omogenei su tutte le risorse? | da rispondere | - | SRC-005 |
+| Q-095 | Perché usare password per proteggere singole risorse è un meccanismo poco raffinato? | da rispondere | - | SRC-005 |
+| Q-096 | Che cos'è una Access Control List? | da rispondere | - | SRC-005 |
+| Q-097 | Quali diritti possono comparire in una ACL? | da rispondere | - | SRC-005 |
+| Q-098 | Quali sono i benefici delle ACL? | da rispondere | - | SRC-005 |
+| Q-099 | Come funzionano i bit di protezione Unix/Linux? | da rispondere | - | SRC-005 |
+| Q-100 | Qual è la differenza tra ACL e bit di protezione? | da rispondere | - | SRC-005 |
+| Q-101 | Che cos'è la mediazione completa? | da rispondere | - | SRC-005 |
+| Q-102 | Che cos'è un attacco TOC/TOU? | da rispondere | - | SRC-005 |
+| Q-103 | Che cos'è il principio dei minimi privilegi? | da rispondere | - | SRC-005 |
+| Q-104 | Che cosa sono i covert channels? | da rispondere | - | SRC-005 |
+| Q-105 | Fai esempi di covert channels. | da rispondere | - | SRC-005 |
+| Q-106 | Qual è la differenza tra DAC e MAC? | da rispondere | - | SRC-005 |
+| Q-107 | Che cosa sono i modelli di sicurezza MAC? | da rispondere | - | SRC-005 |
+| Q-108 | Che cos'è la sicurezza multilivello? | da rispondere | - | SRC-005 |
+| Q-109 | Qual è la regola base per la confidenzialità multilivello? | da rispondere | - | SRC-005 |
+| Q-110 | Spiega il modello Bell-LaPadula. | da rispondere | - | SRC-005 |
+| Q-111 | Che cosa significano no-read-up e no-write-down? | da rispondere | - | SRC-005 |
+| Q-112 | Spiega il modello Biba. | da rispondere | - | SRC-005 |
+| Q-113 | Che cosa significano no-write-up e no-read-down? | da rispondere | - | SRC-005 |
+| Q-114 | Confronta Bell-LaPadula e Biba. | da rispondere | - | SRC-005 |
+| Q-115 | Quali sono problemi noti dei modelli multilivello? | da rispondere | - | SRC-005 |
+| Q-116 | Qual è la differenza tra modelli multi-level e multi-lateral? | da rispondere | - | SRC-005 |
+| Q-117 | Che cosa sono i compartimenti? | da rispondere | - | SRC-005 |
+| Q-118 | Spiega la regola del need-to-know nel Bell-LaPadula esteso. | da rispondere | - | SRC-005 |
+| Q-119 | Che cos'è il modello della Muraglia Cinese? | da rispondere | - | SRC-005 |
+| Q-120 | Come sono organizzati i dati nel modello della Muraglia Cinese? | da rispondere | - | SRC-005 |
+| Q-121 | Qual è la regola di accesso della Muraglia Cinese? | da rispondere | - | SRC-005 |
+| Q-122 | Che cos'è l'auditing? | da rispondere | - | SRC-005 |
+| Q-123 | Quali dati può tracciare il sistema operativo? | da rispondere | - | SRC-005 |
+| Q-124 | Che cosa sono gli Intrusion Detection Systems? | da rispondere | - | SRC-005 |
+| Q-125 | Quali sono i principi di progettazione di un sistema operativo trusted? | da rispondere | - | SRC-005 |
+| Q-126 | Perché la sicurezza deve considerare anche l'usabilità? | da rispondere | - | SRC-005 |
+| Q-127 | Riassumi i principali meccanismi di sicurezza nei sistemi operativi. | da rispondere | - | SRC-005 |

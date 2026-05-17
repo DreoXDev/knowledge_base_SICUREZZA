@@ -71,6 +71,11 @@ Gli attacchi alla CIA Triad possono essere descritti tramite il modello **DAD**:
 - [[Analisi_Rischio]]
 - [[Glossario]]
 
+## Collegamento con i modelli MAC
+
+- [[Bell_LaPadula]] è orientato alla confidenzialità.
+- [[Biba]] è orientato all'integrità.
+
 ## Domande d'esame correlate
 
 > [!Question]
@@ -82,4 +87,4 @@ Gli attacchi alla CIA Triad possono essere descritti tramite il modello **DAD**:
 ## Fonti
 
 - SRC-001
-
+- SRC-005
