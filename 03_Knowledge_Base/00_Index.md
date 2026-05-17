@@ -1,7 +1,7 @@
-# Knowledge Base - Sicurezza e Affidabilita, Secondo Parziale
+# Knowledge Base - Sicurezza e Affidabilità, Secondo Parziale
 
 > [!Info]
-> Questa knowledge base raccogliera' i contenuti teorici necessari per preparare il secondo parziale di Sicurezza e Affidabilita.
+> Questa knowledge base raccoglie i contenuti teorici necessari per preparare il secondo parziale di Sicurezza e Affidabilità.
 
 ## Come usare questo indice
 
@@ -9,23 +9,26 @@ Usare questa pagina come punto di partenza per navigare le note integrate. I lin
 
 ## Moduli principali
 
-- _Da compilare dopo l'integrazione dei primi asset._
+- [[Introduzione_Sicurezza]]
+- _Da estendere con crittografia, sicurezza nelle reti, sicurezza nei sistemi operativi e sicurezza nelle applicazioni._
 
 ## Concetti fondamentali
 
-- _Da compilare dopo l'integrazione dei primi asset._
+- [[CIA_Triad_DAD]]
+- [[Analisi_Rischio]]
 
 ## Definizioni importanti
 
-- _Da compilare dopo l'integrazione dei primi asset._
+- [[Glossario]]
 
 ## Confronti frequenti
 
-- _Da compilare dopo l'integrazione dei primi asset._
+- [[Safety_vs_Security]]
 
 ## Preparazione esame
 
 - [[Domande_Note_Index]]
+- [[Fondamenti_Introduzione]]
 
 ## File di governo
 
@@ -34,4 +37,5 @@ Usare questa pagina come punto di partenza per navigare le note integrate. I lin
 - [[Source_Register]]
 - [[Style_Guide]]
 - [[Codex_Instructions]]
-
+- [[Roadmap_Esame]]
+- [[Stato_Avanzamento]]
