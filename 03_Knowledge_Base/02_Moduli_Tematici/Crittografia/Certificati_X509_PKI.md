@@ -44,6 +44,12 @@ Se si dispone della chiave pubblica dell'autorità di certificazione, si può ve
 
 Se ci si fida dell'autorità di certificazione, ci si può fidare dell'associazione tra entità e chiave pubblica riportata nel certificato.
 
+## Uso nelle reti
+
+I certificati X.509 sono usati anche in TLS per autenticare il server e associare correttamente una chiave pubblica a un'identità.
+
+Vedi: [[TLS_HTTPS]], [[Spoofing_Phishing_Pharming]]
+
 ## Catene di certificati
 
 Una catena di certificati permette di estendere la fiducia.
@@ -91,4 +97,4 @@ Dove:
 ## Fonti
 
 - SRC-003
-
+- SRC-006

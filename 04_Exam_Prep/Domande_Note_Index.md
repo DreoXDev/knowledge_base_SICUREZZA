@@ -141,3 +141,52 @@ Questo indice raccogliera' le domande note o generate a partire dalle fonti inte
 | Q-125 | Quali sono i principi di progettazione di un sistema operativo trusted? | da rispondere | - | SRC-005 |
 | Q-126 | Perché la sicurezza deve considerare anche l'usabilità? | da rispondere | - | SRC-005 |
 | Q-127 | Riassumi i principali meccanismi di sicurezza nei sistemi operativi. | da rispondere | - | SRC-005 |
+| Q-128 | Quali sono gli obiettivi della sicurezza nelle reti? | da rispondere | - | SRC-006 |
+| Q-129 | Perché un sistema in rete è più esposto rispetto a un single host? | da rispondere | - | SRC-006 |
+| Q-130 | Quali sono le principali violazioni di sicurezza in rete? | da rispondere | - | SRC-006 |
+| Q-131 | Spiega i livelli della trasmissione dati in rete e le relative unità dati. | da rispondere | - | SRC-006 |
+| Q-132 | Che cos'è lo sniffing? | da rispondere | - | SRC-006 |
+| Q-133 | Che cos'è il promiscuous mode? | da rispondere | - | SRC-006 |
+| Q-134 | Quali sono usi offensivi e difensivi dello sniffing? | da rispondere | - | SRC-006 |
+| Q-135 | Qual è la differenza tra sniffing su LAN non switched e switched? | da rispondere | - | SRC-006 |
+| Q-136 | Come si può fare sniffing su reti switched? | da rispondere | - | SRC-006 |
+| Q-137 | Che cos'è Ethernet e come usa i MAC address? | da rispondere | - | SRC-006 |
+| Q-138 | Che cos'è ARP? | da rispondere | - | SRC-006 |
+| Q-139 | Che cos'è ARP poisoning? | da rispondere | - | SRC-006 |
+| Q-140 | Perché ARP poisoning è possibile? | da rispondere | - | SRC-006 |
+| Q-141 | Quali difese esistono contro ARP poisoning? | da rispondere | - | SRC-006 |
+| Q-142 | Che cos'è il network address spoofing? | da rispondere | - | SRC-006 |
+| Q-143 | Che differenza c'è tra wiretap passivo e attivo? | da rispondere | - | SRC-006 |
+| Q-144 | Che cos'è lo spoofing? | da rispondere | - | SRC-006 |
+| Q-145 | Che cos'è il pharming? | da rispondere | - | SRC-006 |
+| Q-146 | Che cos'è il phishing? | da rispondere | - | SRC-006 |
+| Q-147 | Che cos'è l'IP spoofing? | da rispondere | - | SRC-006 |
+| Q-148 | Che cos'è una fake public key identity? | da rispondere | - | SRC-006 |
+| Q-149 | Come funziona un attacco man-in-the-middle basato su chiave pubblica falsa? | da rispondere | - | SRC-006 |
+| Q-150 | Che cos'è il session hijacking? | da rispondere | - | SRC-006 |
+| Q-151 | Che cos'è un Denial of Service? | da rispondere | - | SRC-006 |
+| Q-152 | Come funziona un SYN flood? | da rispondere | - | SRC-006 |
+| Q-153 | Che cos'è un DDoS? | da rispondere | - | SRC-006 |
+| Q-154 | Che cos'è lo smurf attack? | da rispondere | - | SRC-006 |
+| Q-155 | Quali attività possono precedere un attacco di rete? | da rispondere | - | SRC-006 |
+| Q-156 | Che cos'è il social engineering? | da rispondere | - | SRC-006 |
+| Q-157 | Quali difese generali esistono contro attacchi dalla rete? | da rispondere | - | SRC-006 |
+| Q-158 | Che cos'è un firewall? | da rispondere | - | SRC-006 |
+| Q-159 | Quali funzioni svolge un firewall? | da rispondere | - | SRC-006 |
+| Q-160 | Qual è la differenza tra packet filter e application gateway? | da rispondere | - | SRC-006 |
+| Q-161 | Come funzionano le regole di packet filtering? | da rispondere | - | SRC-006 |
+| Q-162 | Come si usano i filtri anti-spoofing? | da rispondere | - | SRC-006 |
+| Q-163 | Che cos'è una screened subnet? | da rispondere | - | SRC-006 |
+| Q-164 | Che cos'è una DMZ? | da rispondere | - | SRC-006 |
+| Q-165 | Che cosa contiene una architettura di sicurezza di rete di base? | da rispondere | - | SRC-006 |
+| Q-166 | Che cos'è TLS? | da rispondere | - | SRC-006 |
+| Q-167 | Quali sottoprotocolli compongono TLS? | da rispondere | - | SRC-006 |
+| Q-168 | Descrivi le fasi principali del TLS handshake. | da rispondere | - | SRC-006 |
+| Q-169 | Che cos'è HTTPS e su quale porta opera? | da rispondere | - | SRC-006 |
+| Q-170 | Quali sono i limiti di TLS/SSL? | da rispondere | - | SRC-006 |
+| Q-171 | Che cos'è IPsec? | da rispondere | - | SRC-006 |
+| Q-172 | Come funziona un tunnel IPsec? | da rispondere | - | SRC-006 |
+| Q-173 | Che cos'è una VPN? | da rispondere | - | SRC-006 |
+| Q-174 | Quali difese offre IPsec contro attacchi di rete? | da rispondere | - | SRC-006 |
+| Q-175 | Confronta TLS e IPsec. | da rispondere | - | SRC-006 |
+| Q-176 | Perché può essere utile usare TLS e IPsec insieme? | da rispondere | - | SRC-006 |

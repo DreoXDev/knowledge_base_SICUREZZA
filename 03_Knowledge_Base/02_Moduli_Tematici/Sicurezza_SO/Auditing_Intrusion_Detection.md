@@ -36,6 +36,12 @@ Gli IDS cercano di determinare o prevenire:
 > [!Important]
 > L'auditing non impedisce necessariamente l'attacco, ma fornisce visibilità sulle azioni compiute e può supportare rilevamento, risposta e responsabilizzazione.
 
+## Uso in rete
+
+Gli IDS possono analizzare traffico di rete tramite sniffer e port mirroring, soprattutto in architetture con DMZ e firewall.
+
+Vedi: [[Application_Gateway_DMZ]], [[Sniffing]]
+
 ## Collegamenti
 
 - [[SO_Trusted_Principi]]
@@ -45,4 +51,4 @@ Gli IDS cercano di determinare o prevenire:
 ## Fonti
 
 - SRC-005
-
+- SRC-006

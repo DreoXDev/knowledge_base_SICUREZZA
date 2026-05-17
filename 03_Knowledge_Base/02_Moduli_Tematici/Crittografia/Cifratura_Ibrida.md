@@ -51,6 +51,12 @@ Per firme digitali efficienti si usa:
 - hashing/message digest per riassumere il messaggio;
 - RSA per firmare il digest.
 
+## Uso in TLS
+
+TLS usa una logica ibrida: durante l'handshake si stabiliscono chiavi condivise e poi i dati applicativi vengono cifrati con crittografia simmetrica.
+
+Vedi: [[TLS_HTTPS]]
+
 ## Collegamenti
 
 - [[RSA]]
@@ -62,4 +68,4 @@ Per firme digitali efficienti si usa:
 ## Fonti
 
 - SRC-003
-
+- SRC-006

@@ -43,6 +43,12 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - La Muraglia Cinese gestisce conflitti di interesse tra dataset aziendali concorrenti.
 - Auditing e IDS servono a registrare e analizzare eventi rilevanti per individuare intrusioni o violazioni.
 - Un sistema operativo trusted deve applicare minimi privilegi, mediazione completa, deny by default, auditing, separazione utenti e semplicità d'uso.
+- La sicurezza nelle reti estende CIA, autenticazione e controllo accessi a comunicazioni che attraversano nodi intermedi e protocolli diversi.
+- Sniffing e wiretap passivo compromettono la confidenzialità; wiretap attivo, spoofing e creazione di traffico compromettono integrità; DoS e DDoS compromettono disponibilità.
+- ARP poisoning sfrutta il comportamento stateless di ARP per inserire associazioni IP-MAC false e deviare traffico.
+- Spoofing, phishing, pharming, fake public key identity e session hijacking sono attacchi basati su falsificazione o abuso di fiducia.
+- Firewall, packet filtering, application gateway e DMZ sono difese perimetrali e architetturali.
+- TLS protegge dati applicativi sopra TCP/IP; IPsec protegge traffico a livello IP ed è usato per VPN.
 
 ## Definizioni importanti
 
@@ -75,6 +81,14 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Biba: modello per integrità basato su no-write-up e no-read-down.
 - Covert channel: canale indiretto usato per trasferire informazioni a soggetti non autorizzati.
 - IDS: sistema che analizza dati di audit per rilevare compromissioni o violazioni.
+- Sniffing: intercettazione e analisi di pacchetti di rete.
+- ARP poisoning: inserimento di associazioni IP-MAC false nella ARP cache.
+- Spoofing: falsificazione di identità o indirizzi.
+- Firewall: componente che controlla traffico tra reti secondo una security policy.
+- DMZ: segmento separato che ospita servizi esposti pubblicamente.
+- TLS: protocollo per proteggere privacy e integrità dei dati applicativi sopra TCP/IP.
+- IPsec: meccanismo di sicurezza a livello IP per traffico tra host o gateway.
+- VPN: connessione cifrata tra endpoint.
 
 ## Confronti importanti
 
@@ -91,6 +105,10 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Bell-LaPadula vs Biba: Bell-LaPadula protegge la confidenzialità; Biba protegge l'integrità.
 - DAC vs MAC: DAC è flessibile e delega al proprietario; MAC è più rigido e centralizzato.
 - Multi-level vs multi-lateral: multi-level usa livelli di sicurezza; multi-lateral usa raggruppamenti semantici o conflitti di interesse.
+- Sniffing vs spoofing: lo sniffing osserva traffico; lo spoofing falsifica identità o indirizzi.
+- Wiretap passivo vs attivo: il passivo osserva; l'attivo modifica, crea, elimina o reindirizza traffico.
+- Packet filter vs application gateway: il primo controlla header e porte; il secondo interpreta dati applicativi.
+- TLS vs IPsec: TLS protegge applicazioni sopra TCP; IPsec protegge traffico a livello IP.
 
 ## Domande utili per il ripasso
 
@@ -116,3 +134,7 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Confronta Bell-LaPadula e Biba.
 - Che cosa sono covert channels e perché sono difficili da eliminare?
 - Che cosa sono auditing e IDS?
+- Spiega sniffing, ARP poisoning e spoofing.
+- Qual è la differenza tra DoS e DDoS?
+- Confronta firewall packet filter e application gateway.
+- Confronta TLS e IPsec.

@@ -316,6 +316,102 @@ Intrusion Detection System: sistema che analizza dati di audit per rilevare comp
 
 Sistema operativo progettato per applicare in modo affidabile politiche e meccanismi di sicurezza.
 
+## Sniffing
+
+Intercettazione e analisi di pacchetti di rete, spesso tramite scheda in promiscuous mode.
+
+## Promiscuous mode
+
+Modalità di una scheda di rete che permette di leggere tutti i pacchetti in transito sul mezzo, non solo quelli destinati al proprio MAC.
+
+## Ethernet
+
+Protocollo di livello 2 che trasmette dati in frame usando indirizzi MAC.
+
+## MAC address
+
+Indirizzo di livello 2 associato a una interfaccia di rete Ethernet.
+
+## ARP
+
+Address Resolution Protocol: protocollo che associa indirizzi IPv4 a indirizzi MAC.
+
+## ARP cache
+
+Cache locale che memorizza associazioni IP-MAC.
+
+## ARP poisoning
+
+Attacco che inserisce associazioni IP-MAC false nella ARP cache per deviare traffico.
+
+## Spoofing
+
+Falsificazione di identità o indirizzi in un protocollo o comunicazione.
+
+## IP spoofing
+
+Creazione di traffico IP con indirizzo sorgente falso.
+
+## Pharming
+
+Attacco in cui un host impersona un altro host fidato per rubare dati o credenziali.
+
+## Phishing
+
+Attacco basato su messaggi ingannevoli che inducono l'utente a rivelare dati o compiere azioni pericolose.
+
+## Session hijacking
+
+Attacco in cui l'attaccante prende controllo o si inserisce in una sessione già avviata.
+
+## DDoS
+
+Distributed Denial of Service: DoS distribuito tramite molte macchine compromesse.
+
+## SYN flood
+
+Attacco DoS che sfrutta l'handshake TCP saturando risorse del server con connessioni incomplete.
+
+## Social engineering
+
+Manipolazione psicologica della fiducia umana per ottenere accesso o informazioni.
+
+## Firewall
+
+Dispositivo o componente che controlla traffico tra reti secondo una security policy.
+
+## Packet filtering
+
+Filtraggio di pacchetti in base a regole su header, indirizzi, protocolli e porte.
+
+## Application gateway
+
+Proxy applicativo che controlla semanticamente traffico di specifiche applicazioni.
+
+## DMZ
+
+Demilitarized zone: segmento di rete separato che ospita servizi esposti pubblicamente.
+
+## TLS
+
+Transport Layer Security: protocollo che protegge privacy e integrità dei dati applicativi sopra TCP/IP.
+
+## HTTPS
+
+HTTP su TLS/SSL, tipicamente sulla porta TCP 443.
+
+## Cipher suite
+
+Insieme di algoritmi crittografici negoziati durante un handshake TLS.
+
+## IPsec
+
+Meccanismo di sicurezza a livello IP usato per proteggere traffico tra host o gateway.
+
+## VPN
+
+Virtual Private Network: connessione cifrata tra endpoint, spesso realizzata tramite IPsec.
+
 ## Fonti
 
 - SRC-001
@@ -323,3 +419,4 @@ Sistema operativo progettato per applicare in modo affidabile politiche e meccan
 - SRC-003
 - SRC-004
 - SRC-005
+- SRC-006

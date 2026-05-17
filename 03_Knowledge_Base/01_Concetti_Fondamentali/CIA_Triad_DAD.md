@@ -76,6 +76,16 @@ Gli attacchi alla CIA Triad possono essere descritti tramite il modello **DAD**:
 - [[Bell_LaPadula]] è orientato alla confidenzialità.
 - [[Biba]] è orientato all'integrità.
 
+## Collegamento con sicurezza di rete
+
+Nelle reti:
+
+- sniffing e wiretap passivo compromettono la confidenzialità;
+- wiretap attivo, spoofing e creazione di traffico compromettono l'integrità;
+- DoS e DDoS compromettono la disponibilità.
+
+Vedi: [[Sicurezza_Reti_Introduzione]]
+
 ## Domande d'esame correlate
 
 > [!Question]
@@ -88,3 +98,4 @@ Gli attacchi alla CIA Triad possono essere descritti tramite il modello **DAD**:
 
 - SRC-001
 - SRC-005
+- SRC-006
