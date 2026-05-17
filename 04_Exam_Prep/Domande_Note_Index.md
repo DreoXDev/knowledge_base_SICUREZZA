@@ -28,3 +28,23 @@ Questo indice raccogliera' le domande note o generate a partire dalle fonti inte
 | Q-012 | Che cos'è l'analisi del rischio? | da rispondere | - | SRC-001 |
 | Q-013 | Spiega la formula: Rischio = Vulnerabilità x Minacce x Valori. | da rispondere | - | SRC-001 |
 | Q-014 | Quali strategie si possono adottare nella gestione del rischio? | da rispondere | - | SRC-001 |
+| Q-015 | Che cos'è la crittografia e quali requisiti di sicurezza può supportare? | da rispondere | - | SRC-002 |
+| Q-016 | Perché la crittografia non è una soluzione universale a tutti i problemi di sicurezza? | da rispondere | - | SRC-002 |
+| Q-017 | Descrivi le cinque componenti generali di un sistema crittografico. | da rispondere | - | SRC-002 |
+| Q-018 | Spiega la differenza tra plaintext, ciphertext, chiave, funzione di cifratura e funzione di decifratura. | da rispondere | - | SRC-002 |
+| Q-019 | Spiega il cifrario di Cesare e il suo principale limite. | da rispondere | - | SRC-002 |
+| Q-020 | Che cos'è un attacco di forza bruta? | da rispondere | - | SRC-002 |
+| Q-021 | Da quali fattori dipende la fattibilità di un attacco di forza bruta? | da rispondere | - | SRC-002 |
+| Q-022 | Che cos'è la crittoanalisi? | da rispondere | - | SRC-002 |
+| Q-023 | Quali sono gli obiettivi possibili della crittoanalisi? | da rispondere | - | SRC-002 |
+| Q-024 | Quali caratteristiche deve avere un algoritmo crittografico degno di fiducia? | da rispondere | - | SRC-002 |
+| Q-025 | Quali sono le tre principali classi di algoritmi crittografici? | da rispondere | - | SRC-002 |
+| Q-026 | Spiega il principio degli algoritmi simmetrici. | da rispondere | - | SRC-002 |
+| Q-027 | Quali requisiti di sicurezza sono supportati dagli algoritmi simmetrici? | da rispondere | - | SRC-002 |
+| Q-028 | Perché la crittografia simmetrica non è adatta alle firme digitali? | da rispondere | - | SRC-002 |
+| Q-029 | Spiega il problema del numero di chiavi nella crittografia simmetrica. | da rispondere | - | SRC-002 |
+| Q-030 | Che cos'è DES e su quali principi si basa? | da rispondere | - | SRC-002 |
+| Q-031 | Perché DES è diventato vulnerabile ad attacchi pratici? | da rispondere | - | SRC-002 |
+| Q-032 | Che cos'è Triple DES? | da rispondere | - | SRC-002 |
+| Q-033 | Che cos'è AES e quali sono le sue caratteristiche principali? | da rispondere | - | SRC-002 |
+| Q-034 | Riassumi pro e contro degli algoritmi simmetrici. | da rispondere | - | SRC-002 |
