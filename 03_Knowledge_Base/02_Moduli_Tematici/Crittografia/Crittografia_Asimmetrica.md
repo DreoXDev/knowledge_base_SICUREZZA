@@ -57,6 +57,12 @@ Nella crittografia simmetrica autenticità e integrità valgono solo tra i parte
 
 Nella crittografia asimmetrica, invece, la verifica può essere fatta anche da terze parti, perché la chiave pubblica può essere usata per controllare una firma prodotta con la chiave privata.
 
+## Uso nell'autenticazione reciproca
+
+La crittografia asimmetrica può essere usata in protocolli di autenticazione reciproca come Needham-Schroeder.
+
+Vedi: [[Needham_Schroeder]]
+
 ## Collegamenti
 
 - [[Crittografia_Simmetrica]]
@@ -68,4 +74,4 @@ Nella crittografia asimmetrica, invece, la verifica può essere fatta anche da t
 ## Fonti
 
 - SRC-003
-
+- SRC-004

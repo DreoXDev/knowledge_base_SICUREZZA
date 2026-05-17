@@ -30,6 +30,17 @@ Usare questa pagina come punto di partenza per navigare le note integrate. I lin
 - [[Certificati_X509_PKI]]
 - [[Limiti_Crittografia_e_Threat_Model]]
 
+## Sicurezza nei sistemi operativi
+
+- [[Sicurezza_SO_Introduzione]]
+- [[Autenticazione]]
+- [[Password_Hashing_Salt]]
+- [[Attacchi_alle_Password]]
+- [[Processo_Autenticazione_Sicuro]]
+- [[Challenge_Response_Nonce]]
+- [[Replay_Reflection_Attack]]
+- [[Needham_Schroeder]]
+
 ## Concetti fondamentali
 
 - [[CIA_Triad_DAD]]
@@ -49,6 +60,7 @@ Usare questa pagina come punto di partenza per navigare le note integrate. I lin
 - [[Fondamenti_Introduzione]]
 - [[Crittografia_Parte_1]]
 - [[Crittografia_Parte_2]]
+- [[Sicurezza_SO_Parte_1]]
 
 ## File di governo
 

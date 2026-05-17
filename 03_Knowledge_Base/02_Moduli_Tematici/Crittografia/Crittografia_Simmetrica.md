@@ -60,6 +60,12 @@ La [[Crittografia_Asimmetrica]] è più lenta, ma permette:
 - verifica da parte di terze parti;
 - numero di chiavi lineare nel numero di utenti.
 
+## Uso nell'autenticazione
+
+La crittografia simmetrica può essere usata nei protocolli challenge/response quando client e server condividono una chiave segreta.
+
+Vedi: [[Challenge_Response_Nonce]]
+
 ## Collegamenti
 
 - [[DES_TripleDES_AES]]
@@ -71,3 +77,4 @@ La [[Crittografia_Asimmetrica]] è più lenta, ma permette:
 
 - SRC-002
 - SRC-003
+- SRC-004

@@ -76,3 +76,33 @@ Questo indice raccogliera' le domande note o generate a partire dalle fonti inte
 | Q-060 | Perché la crittografia non è sufficiente da sola? | da rispondere | - | SRC-003 |
 | Q-061 | Che cos'è il threat model e perché è importante? | da rispondere | - | SRC-003 |
 | Q-062 | Spiega l'esempio del PIN del bancomat rispetto ai limiti della crittografia. | da rispondere | - | SRC-003 |
+| Q-063 | Qual è il ruolo del sistema operativo nell'organizzazione di un sistema informatico? | da rispondere | - | SRC-004 |
+| Q-064 | Quali funzioni del sistema operativo sono rilevanti per la sicurezza? | da rispondere | - | SRC-004 |
+| Q-065 | Quali sono le principali aree di interesse per la sicurezza nei sistemi operativi? | da rispondere | - | SRC-004 |
+| Q-066 | Qual è la differenza tra autenticazione e controllo degli accessi? | da rispondere | - | SRC-004 |
+| Q-067 | Che cos'è l'autenticazione? | da rispondere | - | SRC-004 |
+| Q-068 | Qual è l'obiettivo dell'autenticazione? | da rispondere | - | SRC-004 |
+| Q-069 | Quali sono i principali metodi di autenticazione? | da rispondere | - | SRC-004 |
+| Q-070 | Spiega la differenza tra autenticazione basata su conoscenza, possesso e biometria. | da rispondere | - | SRC-004 |
+| Q-071 | Perché le password non dovrebbero essere memorizzate in chiaro? | da rispondere | - | SRC-004 |
+| Q-072 | Come funziona un password file basato su hash? | da rispondere | - | SRC-004 |
+| Q-073 | Che cos'è il salt e perché viene usato? | da rispondere | - | SRC-004 |
+| Q-074 | Perché alcune funzioni di hash per password sono volutamente lente? | da rispondere | - | SRC-004 |
+| Q-075 | Quali sono gli attacchi più comuni alle password? | da rispondere | - | SRC-004 |
+| Q-076 | Quali comportamenti scorretti degli utenti indeboliscono le password? | da rispondere | - | SRC-004 |
+| Q-077 | Perché ridurre il set di caratteri indebolisce una password? | da rispondere | - | SRC-004 |
+| Q-078 | Quali caratteristiche deve avere un processo di autenticazione ben progettato? | da rispondere | - | SRC-004 |
+| Q-079 | Perché i messaggi di errore devono essere generici? | da rispondere | - | SRC-004 |
+| Q-080 | Che cos'è un timing attack nel contesto dell'autenticazione? | da rispondere | - | SRC-004 |
+| Q-081 | Come funziona il challenge/response? | da rispondere | - | SRC-004 |
+| Q-082 | Perché challenge/response permette di dimostrare un segreto senza trasmetterlo? | da rispondere | - | SRC-004 |
+| Q-083 | Che cos'è un nonce? | da rispondere | - | SRC-004 |
+| Q-084 | Perché un nonce difende dai replay attack? | da rispondere | - | SRC-004 |
+| Q-085 | Che cos'è un replay attack? | da rispondere | - | SRC-004 |
+| Q-086 | Che cos'è un reflection attack? | da rispondere | - | SRC-004 |
+| Q-087 | Perché inserire identificativi nei messaggi cifrati aiuta a evitare reflection attack? | da rispondere | - | SRC-004 |
+| Q-088 | Che cos'è l'autenticazione bidirezionale? | da rispondere | - | SRC-004 |
+| Q-089 | Descrivi il protocollo Needham-Schroeder. | da rispondere | - | SRC-004 |
+| Q-090 | Perché la versione originale di Needham-Schroeder è vulnerabile? | da rispondere | - | SRC-004 |
+| Q-091 | Che cos'è il parallel sessions attack? | da rispondere | - | SRC-004 |
+| Q-092 | Come viene corretta la vulnerabilità di Needham-Schroeder? | da rispondere | - | SRC-004 |

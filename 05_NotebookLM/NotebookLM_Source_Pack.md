@@ -27,6 +27,12 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - La cifratura ibrida combina AES/DES per cifrare i dati e RSA per proteggere la chiave di sessione.
 - Certificati X.509 e PKI risolvono il problema di associare in modo fidato una chiave pubblica a un'identità.
 - La crittografia non è sufficiente se il threat model è incompleto: bug, dispositivi, protocolli, utenti e social engineering restano parte del rischio.
+- La sicurezza nei sistemi operativi parte da autenticazione e controllo degli accessi: prima si verifica l'identità del soggetto, poi si decide se può accedere a una risorsa.
+- L'autenticazione può basarsi su conoscenza, possesso o caratteristiche biometriche. Le password sono un caso di autenticazione per conoscenza.
+- Le password non dovrebbero essere memorizzate in chiaro: si usano hash e salt per ridurre i danni in caso di compromissione del password file.
+- Challenge/response permette di dimostrare la conoscenza di un segreto senza trasmetterlo direttamente. Il nonce impedisce replay attack.
+- Reflection attack e parallel sessions attack mostrano che i protocolli devono legare crittograficamente messaggi, identità e contesto.
+- Needham-Schroeder è un protocollo di autenticazione reciproca a chiave pubblica; la versione originale è vulnerabile se i messaggi non includono identità sufficienti.
 
 ## Definizioni importanti
 
@@ -46,6 +52,12 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Firma digitale: meccanismo che garantisce integrità, autenticità e non-ripudio tramite chiave privata e verifica con chiave pubblica.
 - PKI: infrastruttura per gestire certificati, chiavi pubbliche e autorità di certificazione.
 - Threat model: descrizione di minacce, attaccanti, capacità e assunzioni considerate.
+- Autenticazione: verifica che un soggetto sia davvero chi dichiara di essere.
+- Salt: valore casuale associato a una password prima del calcolo dell'hash.
+- Nonce: valore usato una sola volta in un protocollo.
+- Replay attack: riuso di un messaggio valido intercettato.
+- Reflection attack: riuso riflesso di una risposta valida in una sessione parallela.
+- Needham-Schroeder: protocollo di autenticazione reciproca basato su chiave pubblica e nonce.
 
 ## Confronti importanti
 
@@ -56,6 +68,9 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Simmetrica vs asimmetrica: la simmetrica è veloce ma richiede chiavi condivise; l'asimmetrica è più lenta ma rende pubblica una parte della chiave e supporta firme digitali.
 - Hashing vs cifratura: l'hashing produce un digest e non è reversibile; la cifratura deve permettere il recupero del plaintext.
 - Certificati vs chiavi pubbliche nude: una chiave pubblica da sola non prova l'identità del proprietario; il certificato lega chiave e identità tramite una CA.
+- Autenticazione vs controllo accessi: l'autenticazione stabilisce l'identità, il controllo accessi decide i permessi.
+- Password hash vs password in chiaro: l'hash riduce l'esposizione del segreto, ma deve essere accompagnato da salt e protezione del file password.
+- Replay vs reflection attack: il replay riusa un messaggio vecchio; la reflection sfrutta una sessione parallela e la simmetria del protocollo.
 
 ## Domande utili per il ripasso
 
@@ -72,3 +87,7 @@ Il source pack contiene il primo nucleo fondativo derivato da `SRC-001 - 00.Intr
 - Come funziona una firma digitale basata su message digest?
 - Quale problema risolve un certificato X.509?
 - Perché un threat model incompleto può rendere insufficiente la crittografia?
+- Qual è la differenza tra autenticazione e controllo degli accessi?
+- Perché password file, hash e salt sono importanti?
+- Come funziona challenge/response con nonce?
+- Perché Needham-Schroeder originale è vulnerabile a parallel sessions attack?

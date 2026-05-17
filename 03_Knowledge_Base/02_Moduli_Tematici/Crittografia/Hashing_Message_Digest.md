@@ -62,6 +62,12 @@ L'idea originaria era rendere computazionalmente infattibile:
 | Autenticità | No | chiunque può calcolare il digest di un messaggio |
 | Non-ripudio | No | il digest da solo non prova l'identità del mittente |
 
+## Uso per password
+
+Gli hash sono usati anche per memorizzare password in modo non direttamente leggibile.
+
+Vedi: [[Password_Hashing_Salt]]
+
 ## Collegamenti
 
 - [[Firme_Digitali]]
@@ -71,4 +77,4 @@ L'idea originaria era rendere computazionalmente infattibile:
 ## Fonti
 
 - SRC-003
-
+- SRC-004

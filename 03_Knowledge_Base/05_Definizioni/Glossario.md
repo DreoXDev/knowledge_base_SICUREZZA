@@ -180,8 +180,61 @@ Public Key Infrastructure: infrastruttura per gestire chiavi pubbliche, certific
 
 Descrizione delle minacce, degli attaccanti, delle capacità e delle assunzioni considerate nella progettazione della sicurezza.
 
+## Sistema operativo
+
+Software di base che gestisce risorse hardware, processi, memoria, file system, dispositivi e comunicazioni.
+
+## Autenticazione
+
+Processo con cui un sistema verifica che un soggetto sia davvero chi dichiara di essere.
+
+## Reclamante
+
+Soggetto che dichiara una certa identità durante un processo di autenticazione.
+
+## Controllo degli accessi
+
+Meccanismo che decide se un soggetto autenticato può accedere a una risorsa o oggetto protetto.
+
+## Password file
+
+File che contiene informazioni usate per verificare le password degli utenti, tipicamente hash e salt invece delle password in chiaro.
+
+## Salt
+
+Valore casuale associato a una password prima del calcolo dell'hash, usato per contrastare password uguali e tabelle precomputate.
+
+## Challenge/response
+
+Schema di autenticazione in cui il sistema invia una challenge e l'utente deve calcolare una risposta corretta senza trasmettere direttamente il segreto.
+
+## Nonce
+
+Valore usato una sola volta in un protocollo, utile per impedire il riuso di messaggi validi.
+
+## Man-in-the-middle attack
+
+Attacco in cui un aggressore intercetta o manipola la comunicazione tra due parti.
+
+## Replay attack
+
+Attacco in cui un messaggio valido intercettato viene riutilizzato successivamente per autenticarsi o ottenere accesso.
+
+## Reflection attack
+
+Attacco in cui un messaggio o una challenge viene riflessa in una sessione parallela per ottenere una risposta valida.
+
+## Needham-Schroeder
+
+Protocollo di autenticazione reciproca a chiave pubblica, noto anche per una vulnerabilità scoperta anni dopo la sua proposta originale.
+
+## Parallel sessions attack
+
+Attacco che sfrutta sessioni parallele per riutilizzare messaggi validi in un contesto diverso da quello previsto.
+
 ## Fonti
 
 - SRC-001
 - SRC-002
 - SRC-003
+- SRC-004
