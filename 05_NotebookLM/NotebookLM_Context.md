@@ -28,3 +28,16 @@ NotebookLM deve supportare:
 - sintesi dei moduli;
 - individuazione di collegamenti tra concetti.
 
+## Domande note d'esame
+
+La fase domande note usa SRC-009, SRC-010 e SRC-011. Per risposte verificate e deduplicate usare:
+
+- [[Matrice_Domande_Argomenti]]
+- [[Risposte_Esame_Media_Lunghezza]]
+- [[Flashcards_Domande_Note]]
+- [[Flashcards_Anki_Cloze]]
+- [[Simulazioni_Appelli]]
+- [[Errori_o_Risposte_Dubbie]]
+
+Le risposte presenti negli asset sono tracce studente o tracce d'appello: vanno considerate secondarie rispetto alla KB verificata.
+

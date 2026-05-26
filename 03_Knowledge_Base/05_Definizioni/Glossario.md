@@ -412,6 +412,50 @@ Meccanismo di sicurezza a livello IP usato per proteggere traffico tra host o ga
 
 Virtual Private Network: connessione cifrata tra endpoint, spesso realizzata tramite IPsec.
 
+## Security policy
+
+Insieme di regole che stabilisce come un sistema o un'organizzazione protegge risorse critiche e sensibili. Vedi [[Glossario_Sicurezza_Applicazioni]].
+
+## Weakness
+
+Tipo di errore nel progetto, nell'implementazione o nell'operazione di un sistema software che, in condizioni opportune, puo' introdurre una vulnerabilita'. Vedi [[Glossario_Sicurezza_Applicazioni]].
+
+## Exploit
+
+Tecnica concreta che sfrutta una vulnerabilita' per violare la security policy di un sistema.
+
+## Attack pattern
+
+Schema generale di azione intenzionale usato per violare la security policy, indipendente da una singola vulnerabilita' concreta.
+
+## Countermeasure
+
+Azione o tecnica che elimina, previene, mitiga o rileva una vulnerabilita', una minaccia o un attacco.
+
+## Improper neutralization
+
+Weakness in cui dati non fidati non vengono trasformati, validati o codificati correttamente prima dell'uso in un contesto interpretabile, come HTML, JavaScript o SQL.
+
+## XSS
+
+Cross-Site Scripting: schema di attacco in cui input malevolo viene interpretato come codice dal browser della vittima.
+
+## SQL injection
+
+Forma di command/query injection in cui input utente modifica la query SQL eseguita dall'applicazione.
+
+## Buffer overflow
+
+Scrittura fuori dai limiti di un buffer, potenzialmente capace di sovrascrivere memoria adiacente e alterare il flusso di esecuzione.
+
+## Buffer overread
+
+Lettura fuori dai limiti di un buffer, con possibile esposizione di dati sensibili presenti in memoria.
+
+## Null pointer dereference
+
+Uso di un puntatore NULL come se puntasse a un oggetto valido; spesso causa crash, ma in contesti kernel puo' diventare sfruttabile.
+
 ## Fonti
 
 - SRC-001
@@ -420,3 +464,5 @@ Virtual Private Network: connessione cifrata tra endpoint, spesso realizzata tra
 - SRC-004
 - SRC-005
 - SRC-006
+- SRC-007
+- SRC-008

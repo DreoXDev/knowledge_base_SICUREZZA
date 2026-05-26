@@ -31,7 +31,8 @@ L'obiettivo e' trasformare progressivamente slide, appunti, domande note e altri
 
 Per studiare, partire da `03_Knowledge_Base/00_Index.md` e poi usare `04_Exam_Prep/` per allenarsi con domande, risposte sintetiche, flashcard e schemi.
 
+Moduli attualmente integrati: introduzione, crittografia, sicurezza nei sistemi operativi, sicurezza nelle reti e sicurezza nelle applicazioni.
+
 ## Uso con AI e NotebookLM
 
 I file in `05_NotebookLM/` servono a fornire contesto controllato a NotebookLM o ad altre AI. Le risposte generate devono basarsi solo sui contenuti presenti nella knowledge base e sulle fonti registrate.
-

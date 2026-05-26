@@ -10,6 +10,30 @@ Questo indice raccogliera' le domande note o generate a partire dalle fonti inte
 - `da verificare`
 - `duplicata`
 
+## Domande ricorrenti
+
+- [[Risposte_Esame_Media_Lunghezza#Q-CRYPTO-001 - Simmetrica vs asimmetrica]]
+- [[Risposte_Esame_Media_Lunghezza#Q-CRYPTO-002 - Chiave pubblica e firme digitali]]
+- [[Risposte_Esame_Media_Lunghezza#Q-SO-002 - ACL e mediazione completa]]
+- [[Risposte_Esame_Media_Lunghezza#Q-SO-004 - Bell-LaPadula con compartimenti]]
+- [[Risposte_Esame_Media_Lunghezza#Q-NET-001 - Packet filter e IP spoofing]]
+- [[Risposte_Esame_Media_Lunghezza#Q-NET-007 - IPsec transport mode]]
+- [[Risposte_Esame_Media_Lunghezza#Q-APP-002 - SQL injection]]
+- [[Risposte_Esame_Media_Lunghezza#Q-APP-003 - Buffer overflow]]
+
+## Flashcard
+
+- [[Flashcards_Domande_Note]]
+- [[Flashcards_Anki_Cloze]]
+
+## Matrice e risposte
+
+- [[Matrice_Domande_Argomenti]]
+- [[Domande_Note_Verificate]]
+- [[Risposte_Esame_Media_Lunghezza]]
+- [[Simulazioni_Appelli]]
+- [[Errori_o_Risposte_Dubbie]]
+
 ## Registro domande
 
 | ID domanda | Domanda | Stato | Risposta | Fonte |
@@ -189,4 +213,14 @@ Questo indice raccogliera' le domande note o generate a partire dalle fonti inte
 | Q-173 | Che cos'è una VPN? | da rispondere | - | SRC-006 |
 | Q-174 | Quali difese offre IPsec contro attacchi di rete? | da rispondere | - | SRC-006 |
 | Q-175 | Confronta TLS e IPsec. | da rispondere | - | SRC-006 |
+| Q-177 | Spiega la differenza tra weakness, vulnerabilita', exploit e attacco. | risposta completa | [[Sicurezza_Applicazioni_Domande]] | SRC-007 |
+| Q-178 | Spiega la differenza tra CWE, CAPEC e CVE. | risposta completa | [[Sicurezza_Applicazioni_Domande]] | SRC-007 |
+| Q-179 | Che cos'e' improper neutralization? | risposta completa | [[Sicurezza_Applicazioni_Domande]] | SRC-007 |
+| Q-180 | Spiega XSS e le varianti persistent, reflected e DOM-based. | risposta completa | [[Sicurezza_Applicazioni_Domande]] | SRC-007 |
+| Q-181 | Spiega SQL injection e prepared statements. | risposta completa | [[Sicurezza_Applicazioni_Domande]] | SRC-007 |
+| Q-182 | Che cos'e' buffer overflow e come altera il flusso di controllo? | risposta completa | [[Sicurezza_Applicazioni_Domande]] | SRC-008 |
+| Q-183 | Spiega canary values, ASLR ed executable space protection. | risposta completa | [[Sicurezza_Applicazioni_Domande]] | SRC-008 |
+| Q-184 | Spiega Heartbleed come buffer overread. | risposta completa | [[Sicurezza_Applicazioni_Domande]] | SRC-008 |
+| Q-185 | Come puo' una null pointer dereference diventare sfruttabile nel kernel? | risposta completa | [[Sicurezza_Applicazioni_Domande]] | SRC-008 |
+| Q-186 | Spiega CVE-2009-2692 e CVE-2009-1897. | risposta completa | [[Sicurezza_Applicazioni_Domande]] | SRC-008 |
 | Q-176 | Perché può essere utile usare TLS e IPsec insieme? | da rispondere | - | SRC-006 |
