@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "a02941429b42919b",
+    "type": "split",
+    "children": [
+      {
+        "id": "615271007a5d2d22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45df7a038dbe92b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04_Exam_Prep/Schemi_Ripasso/Finali/Mega_Riassunto_Esame.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mega_Riassunto_Esame"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "435ffb8f4f0ecd26",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5e0476d331f3e14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ca30cf09e565310",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "28fb9931df6c6bea",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9de5afc5ca91d265",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "eefc91d6e5aec3b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "8329331f68111202",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a96275393f158c3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04_Exam_Prep/Schemi_Ripasso/Finali/Mega_Riassunto_Esame.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Mega_Riassunto_Esame"
+            }
+          },
+          {
+            "id": "480dc3609ead88c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04_Exam_Prep/Schemi_Ripasso/Finali/Mega_Riassunto_Esame.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Mega_Riassunto_Esame"
+            }
+          },
+          {
+            "id": "da53619031fe3362",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "37ddc11e7a7dbd20",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "abbe36fc1364b9df",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04_Exam_Prep/Schemi_Ripasso/Finali/Mega_Riassunto_Esame.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Mega_Riassunto_Esame"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "45df7a038dbe92b8",
+  "lastOpenFiles": [
+    "04_Exam_Prep/Risposte_Da_Esame/Risposte_Esame_Media_Lunghezza.md",
+    "04_Exam_Prep/Domande_Note_Index.md",
+    "04_Exam_Prep/00_Exam_Prep_Index.md",
+    "04_Exam_Prep/Simulazioni_Orale_o_Scritto/Simulazioni_Randomizzate.md",
+    "04_Exam_Prep/Simulazioni_Orale_o_Scritto/Simulazioni_Appelli.md",
+    "04_Exam_Prep/Simulazioni_Orale_o_Scritto/Simulazione_Completa_4_Domande.md",
+    "04_Exam_Prep/Simulazioni_Orale_o_Scritto/Griglia_Valutazione.md",
+    "04_Exam_Prep/Piano_Studio_11_Giugno.md",
+    "04_Exam_Prep/Matrice_Domande_Argomenti.md",
+    "04_Exam_Prep/Domande_Note_Verificate.md",
+    "04_Exam_Prep/Schemi_Ripasso/Finali/Mega_Riassunto_Esame.md",
+    "04_Exam_Prep/Schemi_Ripasso/Finali/Mappa_Argomenti_Esame.md",
+    "04_Exam_Prep/Schemi_Ripasso/Finali/Glossario_Esame.md",
+    "04_Exam_Prep/Schemi_Ripasso/Finali/Confronti_Fondamentali.md",
+    "04_Exam_Prep/Risposte_Da_Esame/Errori_o_Risposte_Dubbie.md",
+    "04_Exam_Prep/Risposte_Da_Esame/Domande_Ricorrenti.md",
+    "04_Exam_Prep/Risposte_Da_Esame/Checklist_Risposta_Esame.md",
+    "04_Exam_Prep/Flashcards/Crittografia_Parte_1.md",
+    "04_Exam_Prep/Domande/Sicurezza_Applicazioni_Domande.md",
+    "03_Knowledge_Base/02_Moduli_Tematici/Sicurezza_SO/Bell_LaPadula_Compartimenti.md",
+    "04_Exam_Prep/Flashcards/Flashcards_Domande_Note.md",
+    "00_Project/Final_Audit_Report.md",
+    "00_Project/Codex_Instructions.md",
+    "03_Knowledge_Base/01_Concetti_Fondamentali/CIA_Triad_DAD.md",
+    "05_NotebookLM/Sicurezza_Applicazioni_Context.md",
+    "05_NotebookLM/NotebookLM_Source_Pack.md"
+  ]
+}

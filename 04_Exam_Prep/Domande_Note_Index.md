@@ -1,6 +1,7 @@
-# Domande Note - Secondo Parziale
+# Domande Note - Index
 
-Questo indice raccogliera' le domande note o generate a partire dalle fonti integrate nella knowledge base.
+> [!Info]
+> Questo file distingue tra domande effettivamente note dagli asset d'esame e domande generate per allenamento.
 
 ## Stati possibili
 
@@ -10,7 +11,26 @@ Questo indice raccogliera' le domande note o generate a partire dalle fonti inte
 - `da verificare`
 - `duplicata`
 
-## Domande ricorrenti
+## Domande note reali
+
+- [[Matrice_Domande_Argomenti]]
+- [[Risposte_Esame_Media_Lunghezza]]
+- [[Domande_Ricorrenti]]
+
+## Domande ricorrenti o ad alta probabilita'
+
+| Priorita' | Domanda | Argomento | Fonti | Risposta |
+|---|---|---|---|---|
+| 1 | Simmetrica vs asimmetrica e numero di chiavi | Crittografia | SRC-009, SRC-010 | [[Risposte_Esame_Media_Lunghezza#Q-CRYPTO-001 - Simmetrica vs asimmetrica]] |
+| 1 | Chiave pubblica e firme digitali | Crittografia | SRC-009, SRC-011 | [[Risposte_Esame_Media_Lunghezza#Q-CRYPTO-002 - Chiave pubblica e firme digitali]] |
+| 1 | ACL e mediazione completa | Sistemi operativi | SRC-009, SRC-011 | [[Risposte_Esame_Media_Lunghezza#Q-SO-002 - ACL e mediazione completa]] |
+| 1 | Bell-LaPadula con compartimenti | Sistemi operativi | SRC-009, SRC-010 | [[Risposte_Esame_Media_Lunghezza#Q-SO-004 - Bell-LaPadula con compartimenti]] |
+| 1 | Packet filter e IP spoofing | Reti | SRC-009, SRC-011 | [[Risposte_Esame_Media_Lunghezza#Q-NET-001 - Packet filter e IP spoofing]] |
+| 1 | IPsec transport mode | Reti | SRC-010 | [[Risposte_Esame_Media_Lunghezza#Q-NET-007 - IPsec transport mode]] |
+| 1 | SQL injection | Applicazioni | SRC-009, SRC-010 | [[Risposte_Esame_Media_Lunghezza#Q-APP-002 - SQL injection]] |
+| 1 | Buffer overflow | Applicazioni | SRC-009, SRC-011 | [[Risposte_Esame_Media_Lunghezza#Q-APP-003 - Buffer overflow]] |
+
+## Link rapidi alle ricorrenti
 
 - [[Risposte_Esame_Media_Lunghezza#Q-CRYPTO-001 - Simmetrica vs asimmetrica]]
 - [[Risposte_Esame_Media_Lunghezza#Q-CRYPTO-002 - Chiave pubblica e firme digitali]]
@@ -34,7 +54,9 @@ Questo indice raccogliera' le domande note o generate a partire dalle fonti inte
 - [[Simulazioni_Appelli]]
 - [[Errori_o_Risposte_Dubbie]]
 
-## Registro domande
+## Domande generate dalle slide
+
+Le domande generate dalle slide servono per ripassare il contenuto teorico, ma non vanno confuse con domande note reali.
 
 | ID domanda | Domanda | Stato | Risposta | Fonte |
 |---|---|---|---|---|

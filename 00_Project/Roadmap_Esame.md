@@ -1,37 +1,41 @@
 # Roadmap Esame - Secondo Parziale
 
 > [!Info]
-> Il secondo parziale è completamente teorico: l'obiettivo della KB è trasformare slide, appunti e domande note in materiale studiabile direttamente da Obsidian e utilizzabile come contesto per AI e NotebookLM.
+> La roadmap ora e' una roadmap di studio: la costruzione della KB e' chiusa, il focus e' ripasso e simulazione.
 
 ## Programma principale
 
-1. Crittografia
-2. Sicurezza nelle reti
-3. Sicurezza nei sistemi operativi
-4. Sicurezza nelle applicazioni
+1. Crittografia.
+2. Sicurezza nei sistemi operativi.
+3. Sicurezza nelle reti.
+4. Sicurezza nelle applicazioni.
 
-## Laboratori rilevanti
+## Percorso consigliato
 
-- Selenium
-- Crittografia e firme digitali
-- Password cracking
-- Analisi del traffico di rete
+1. [[Mega_Riassunto_Esame]]
+2. [[Mappa_Argomenti_Esame]]
+3. [[Domande_Ricorrenti]]
+4. [[Risposte_Esame_Media_Lunghezza]]
+5. [[Flashcards_High_Yield]]
+6. [[Simulazione_Completa_4_Domande]]
+7. [[Checklist_Risposta_Esame]]
 
-## Interventi esterni
+## Priorita' studio
 
-- OSINT
-- DevSecOps
-- Cybersecurity & AI
+- Firme digitali e message digest.
+- Simmetrica vs asimmetrica.
+- ACL e mediazione completa.
+- Bell-LaPadula con compartimenti.
+- Packet filter e IP spoofing.
+- TLS/IPsec transport/tunnel.
+- SQL injection.
+- Buffer overflow.
 
-## Strategia di studio
+## Piano
 
-- Leggere prima le note sintetiche della KB.
-- Ripassare con flashcard.
-- Usare le domande note come simulazione orale o scritta.
-- Usare NotebookLM o altri strumenti AI solo dopo aver consolidato la struttura della KB.
+Seguire [[Piano_Studio_11_Giugno]]. Se il tempo e' poco, usare [[Ripasso_Ultimi_3_Giorni]].
 
-## Fonte
+## Fonti
 
-- SRC-001
-- SRC-007
-- SRC-008
+- SRC-001 - SRC-011
+

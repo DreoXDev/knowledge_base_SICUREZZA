@@ -41,3 +41,11 @@ La fase domande note usa SRC-009, SRC-010 e SRC-011. Per risposte verificate e d
 
 Le risposte presenti negli asset sono tracce studente o tracce d'appello: vanno considerate secondarie rispetto alla KB verificata.
 
+## Contesto finale
+
+- [[NotebookLM_Master_Context]]
+- [[NotebookLM_Domande_Note]]
+- [[NotebookLM_Riassunti]]
+- [[NotebookLM_Istruzioni_AI]]
+- [[Domande_Note_Context]]
+- [[Sicurezza_Applicazioni_Context]]

@@ -13,7 +13,7 @@ Usare Markdown pulito e compatibile con Obsidian.
 Linkare solo concetti realmente utili:
 
 ```md
-[[Nome della nota]]
+Usare wikilink Obsidian verso note esistenti.
 ```
 
 ## Callout
@@ -92,4 +92,3 @@ Per risposte piu' articolate:
 ```
 
 Ogni flashcard deve testare un solo concetto.
-

@@ -1,0 +1,15 @@
+# Vault Check Report
+
+Markdown files: 151
+Broken links: 0
+TODO/da completare/da verificare lines: 0
+Potential orphan notes: 0
+
+## Broken links
+- None
+
+## TODO-like lines
+- None
+
+## Potential orphan notes
+- None

@@ -1,38 +1,46 @@
 # Knowledge Base - Sicurezza e Affidabilita, Secondo Parziale
 
-Questa repository contiene una knowledge base Obsidian-style per preparare il secondo parziale di Sicurezza e Affidabilita.
+Questa repository contiene una knowledge base Obsidian-style pronta per preparare il secondo parziale di Sicurezza e Affidabilita.
 
-L'obiettivo e' trasformare progressivamente slide, appunti, domande note e altri materiali in una base teorica completa, leggibile per lo studio e utilizzabile come contesto per strumenti AI.
+## Come iniziare a studiare
 
-> [!Info]
-> La repository nasce vuota dal punto di vista teorico: i contenuti verranno integrati asset per asset, mantenendo sempre tracciabilita' delle fonti.
+1. Apri [[04_Exam_Prep/00_Exam_Prep_Index.md]].
+2. Leggi [[Mega_Riassunto_Esame]].
+3. Ripassa [[Domande_Ricorrenti]].
+4. Allenati con [[Simulazioni_Appelli]] e [[Simulazione_Completa_4_Domande]].
+5. Usa [[Flashcards_High_Yield]] per l'ultimo ripasso.
 
 ## Struttura
 
-- `00_Project/`: contesto, workflow, registro fonti, guida di stile e istruzioni operative.
+- `00_Project/`: contesto, workflow, registro fonti, audit e stato.
 - `01_Raw_Assets/`: fonti originali non modificate.
 - `02_Source_Notes/`: note derivate da ogni singola fonte.
-- `03_Knowledge_Base/`: note integrate e studiabili.
-- `04_Exam_Prep/`: domande, risposte, flashcard, schemi e simulazioni.
+- `03_Knowledge_Base/`: note teoriche integrate e studiabili.
+- `04_Exam_Prep/`: domande, risposte, flashcard, schemi, simulazioni e piano studio.
 - `05_NotebookLM/`: materiale compatto per NotebookLM e altri strumenti AI.
-- `06_Exports/`: esportazioni e file di handoff.
+- `06_Exports/`: esportazioni e handoff finali.
 - `99_Archive/`: materiali vecchi, duplicati o superati.
 
-## Workflow
+## Stato
 
-1. Aggiungere un asset nella sottocartella corretta di `01_Raw_Assets/`.
-2. Registrarlo in `00_Project/Source_Register.md`.
-3. Creare una source note in `02_Source_Notes/`.
-4. Integrare i concetti verificati in `03_Knowledge_Base/`.
-5. Aggiornare domande, risposte e flashcard in `04_Exam_Prep/`.
-6. Controllare duplicazioni, link interni e tracciabilita' delle fonti.
+Asset di base analizzati:
 
-## Uso per lo studio
+- slide teoriche;
+- sicurezza applicazioni;
+- domande note;
+- appelli/foto disponibili.
 
-Per studiare, partire da `03_Knowledge_Base/00_Index.md` e poi usare `04_Exam_Prep/` per allenarsi con domande, risposte sintetiche, flashcard e schemi.
+Sono integrati gli asset `SRC-001` - `SRC-011`.
 
-Moduli attualmente integrati: introduzione, crittografia, sicurezza nei sistemi operativi, sicurezza nelle reti e sicurezza nelle applicazioni.
+## Percorso rapido
+
+- Teoria: [[03_Knowledge_Base/00_Index.md]]
+- Ripasso: [[Mega_Riassunto_Esame]]
+- Domande: [[Risposte_Esame_Media_Lunghezza]]
+- Simulazioni: [[Simulazione_Completa_4_Domande]]
+- Piano: [[Piano_Studio_11_Giugno]]
 
 ## Uso con AI e NotebookLM
 
-I file in `05_NotebookLM/` servono a fornire contesto controllato a NotebookLM o ad altre AI. Le risposte generate devono basarsi solo sui contenuti presenti nella knowledge base e sulle fonti registrate.
+Per strumenti AI usare i file in `05_NotebookLM/Final_Context/` e gli export in `06_Exports/`. Le risposte generate devono basarsi sui contenuti della KB e sulle fonti registrate in [[Source_Register]].
+

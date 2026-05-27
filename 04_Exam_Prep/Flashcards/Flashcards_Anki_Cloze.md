@@ -40,3 +40,12 @@ La difesa principale contro SQL injection sono {{c1::prepared statements/query p
 
 Un buffer overflow su stack puo' sovrascrivere {{c1::il return address}} e alterare {{c2::il flusso di esecuzione}}.
 
+Nel modello Bell-LaPadula la proprieta' semplice e' {{c1::no-read-up}}, mentre la proprieta' di confinamento e' {{c2::no-write-down}}.
+
+Nel modello Biba la regola semplice e' {{c1::no-write-up}}, mentre la regola di confinamento e' {{c2::no-read-down}}.
+
+TLS opera {{c1::sopra TCP}} e protegge {{c2::i dati applicativi}}.
+
+IPsec opera a {{c1::livello IP}} e puo' lavorare in modalita' {{c2::transport}} o {{c3::tunnel}}.
+
+In XSS la vittima principale e' {{c1::il browser dell'utente}}, mentre in SQL injection il contesto colpito e' {{c2::la query/database}}.

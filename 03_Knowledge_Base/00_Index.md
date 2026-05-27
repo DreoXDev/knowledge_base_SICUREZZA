@@ -5,7 +5,45 @@
 
 ## Come usare questo indice
 
-Usare questa pagina come punto di partenza per navigare le note integrate. I link verranno aggiunti progressivamente man mano che gli asset saranno analizzati.
+Usare questa pagina come punto di partenza per navigare le note integrate. Per il ripasso finale partire da [[00_Exam_Prep_Index]].
+
+## Percorso consigliato
+
+1. [[Introduzione_Sicurezza]]
+2. [[CIA_Triad_DAD]]
+3. [[Analisi_Rischio]]
+4. [[Crittografia_Introduzione]]
+5. [[Crittografia_Simmetrica]]
+6. [[Crittografia_Asimmetrica]]
+7. [[Hashing_Message_Digest]]
+8. [[Firme_Digitali]]
+9. [[Sicurezza_SO_Introduzione]]
+10. [[Autenticazione]]
+11. [[Challenge_Response_Nonce]]
+12. [[Controllo_Accessi_SO]]
+13. [[DAC_MAC]]
+14. [[Bell_LaPadula]]
+15. [[Sicurezza_Reti_Introduzione]]
+16. [[Difese_Rete_Firewall]]
+17. [[TLS_HTTPS]]
+18. [[IPsec_VPN]]
+19. [[Sicurezza_Applicazioni_Introduzione]]
+20. [[Cross_Site_Scripting_XSS]]
+21. [[SQL_Injection]]
+22. [[Buffer_Overflow]]
+23. [[Buffer_Overread_Heartbleed]]
+24. [[Null_Pointer_Dereference]]
+25. [[Java_Secure_Coding_Guidelines]]
+
+## Ultimo ripasso prima dell'esame
+
+- [[Mega_Riassunto_Esame]]
+- [[Mappa_Argomenti_Esame]]
+- [[Confronti_Fondamentali]]
+- [[Domande_Ricorrenti]]
+- [[Risposte_Esame_Media_Lunghezza]]
+- [[Simulazioni_Appelli]]
+- [[Piano_Studio_11_Giugno]]
 
 ## Moduli principali
 
@@ -118,7 +156,13 @@ Usare questa pagina come punto di partenza per navigare le note integrate. I lin
 
 ## Preparazione esame
 
+- [[00_Exam_Prep_Index]]
 - [[Domande_Note_Index]]
+- [[Domande_Ricorrenti]]
+- [[Mega_Riassunto_Esame]]
+- [[Mappa_Argomenti_Esame]]
+- [[Confronti_Fondamentali]]
+- [[Glossario_Esame]]
 - [[Fondamenti_Introduzione]]
 - [[Crittografia_Parte_1]]
 - [[Crittografia_Parte_2]]
@@ -134,6 +178,9 @@ Usare questa pagina come punto di partenza per navigare le note integrate. I lin
 - [[Matrice_Domande_Argomenti]]
 - [[Simulazioni_Appelli]]
 - [[Errori_o_Risposte_Dubbie]]
+- [[Checklist_Risposta_Esame]]
+- [[Piano_Studio_11_Giugno]]
+- [[Ripasso_Ultimi_3_Giorni]]
 
 ## File di governo
 

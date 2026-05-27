@@ -2,31 +2,30 @@
 
 ## Esame
 
-Questa knowledge base e' dedicata all'esame di Sicurezza e Affidabilita, con focus specifico sul secondo parziale.
+Questa knowledge base e' dedicata all'esame di Sicurezza e Affidabilita, con focus sul secondo parziale teorico.
 
-L'esame e' considerato completamente teorico. La repository deve quindi aiutare a costruire risposte chiare, definizioni precise, confronti tra concetti e schemi di ripasso orientati alla prova.
+## Stato del progetto
 
-## Obiettivo
+La fase di acquisizione e integrazione asset e' chiusa. Sono integrati `SRC-001` - `SRC-011`: slide teoriche, sicurezza applicazioni, domande note, appelli e foto disponibili.
 
-L'obiettivo e' creare una base di conoscenza incrementale, leggibile in Obsidian e adatta anche come contesto per strumenti AI come ChatGPT, Codex, Claude Code, Antigravity e NotebookLM.
+## Obiettivo finale
 
-La repository deve:
+La repository deve essere usabile come vault di studio:
 
-- raccogliere fonti originali senza modificarle;
-- produrre source note fedeli ai singoli asset;
-- integrare i concetti in note teoriche modulari;
-- generare materiale per preparazione d'esame;
-- mantenere sempre la tracciabilita' tra note e fonti.
+- note teoriche modulari in `03_Knowledge_Base`;
+- risposte e domande in `04_Exam_Prep`;
+- simulazioni e piano studio;
+- contesto compatto per AI e NotebookLM;
+- tracciabilita' tramite `Source_Register.md`.
 
-## Metodo incrementale
+## Regola di affidabilita'
 
-Il progetto cresce asset per asset. Ogni nuovo materiale viene prima registrato, poi analizzato, trasformato in source note e infine integrato nella knowledge base.
+Le risposte finali devono seguire questa priorita':
 
-Non si deve generare contenuto teorico non supportato dalle fonti. Quando un concetto e' probabile ma non sufficientemente documentato, va marcato come `da verificare`.
+1. note teoriche della KB;
+2. risposte da esame verificate;
+3. source notes;
+4. raw asset.
 
-## Ruolo degli strumenti AI
-
-Codex applica piani di aggiornamento alla repository, crea o modifica file Markdown e mantiene la coerenza della struttura.
-
-Gli altri strumenti AI possono essere usati per analizzare fonti, proporre domande, simulare interrogazioni o generare riassunti, ma il contenuto finale deve restare verificabile tramite `Source_Register.md`.
+Le risposte studente presenti negli asset sono tracce utili, ma non fonte automaticamente corretta.
 
